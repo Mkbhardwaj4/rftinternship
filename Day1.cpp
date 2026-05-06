@@ -1,4 +1,4 @@
-// #include <iostream>
+#include <iostream>
 using namespace std;
 
 class Student {
@@ -65,7 +65,7 @@ int main() {
     cout << "\n--- Enter Details for Student 2 ---\n";
     s2.inputDetails();
 
-    // ✅ Print average & grade separately
+    
     cout << "\n===== Results =====\n";
 
     cout << "\nStudent 1:";
@@ -74,7 +74,6 @@ int main() {
     cout << "\nStudent 2:";
     s2.displayResult();
 
-    // ✅ Find topper
     cout << "\n===== Class Topper =====\n";
     if (s1.getAvgForTopper() > s2.getAvgForTopper()) {
         cout << "Topper is Student 1\n";

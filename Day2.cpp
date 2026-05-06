@@ -98,7 +98,7 @@ int main() {
                 myAccount.displayBalance();
                 break;
             case 4:
-                cout << "Exiting. Thank you for using our service!" << endl;
+                cout << "Exiting. Thank you for using this bank!" << endl;
                 break;
             default:
                 cout << "Invalid choice! Please try again." << endl;
